@@ -8,8 +8,8 @@ const getAdvice = async function () {
   );
   let adviceRes = response.slip;
 
-  adviceNum.innerHTML = `Advice # ${adviceRes.id}`;
+  adviceNum.innerHTML = `ADVICE # ${adviceRes.id}`;
   advice.innerHTML = adviceRes.advice;
 };
-
+getAdvice();
 button.addEventListener("click", getAdvice);
