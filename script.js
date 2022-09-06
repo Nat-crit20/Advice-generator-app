@@ -6,10 +6,10 @@ const getAdvice = async function () {
   const response = await fetch("https://api.adviceslip.com/advice").then(
     (data) => data.json()
   );
-  console.log(response.slip);
-  return response.slip;
+  let adviceRes = response.slip;
+
+  adviceNum.innerHTML = `Advice # ${adviceRes.id}`;
+  advice.innerHTML = adviceRes.advice;
 };
 
-button.addEventListener("click", function () {
-  let advice = getAdvice();
-});
+button.addEventListener("click", getAdvice);
