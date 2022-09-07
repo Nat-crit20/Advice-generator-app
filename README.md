@@ -29,8 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://val7997.github.io/Advice-generator-app/](https://val7997.github.io/Advice-generator-app/)
 
 ## My process
 
@@ -50,4 +49,4 @@ I would like to continue to learn more about how I can implement async javascrip
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Val7997](https://www.frontendmentor.io/profile/Val7997)
