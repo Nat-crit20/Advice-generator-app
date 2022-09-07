@@ -14,16 +14,13 @@ main {
   background-color: hsl(217, 19%, 24%);
   border-radius: 10px;
   width: 475px;
-  height: 275px;
+  padding: 2rem 1rem 0 1rem;
   font-family: "Manrope", sans-serif;
 }
 @media only screen and (max-width: 600px) {
   main {
     width: 370px;
   }
-}
-section {
-  height: 150px;
 }
 .advice-num {
   color: hsl(150, 100%, 66%);
@@ -32,10 +29,23 @@ section {
   font-size: 28px;
   color: hsl(193, 38%, 86%);
 }
+.divider {
+  width: 90%;
+  height: 1rem;
+  background-image: url("./images/pattern-divider-desktop.svg");
+  background-position: center;
+  margin: 1rem 1rem 4rem 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .divider {
+    background-image: url("./images/pattern-divider-mobile.svg");
+  }
+}
 
 button {
-  position: relative;
-  bottom: -19%;
+  position: absolute;
+  bottom: -12%;
   border: none;
   border-radius: 100%;
   background-color: hsl(150, 100%, 66%);
