@@ -24,6 +24,7 @@ main {
 }
 .advice-num {
   color: hsl(150, 100%, 66%);
+  font-size: 1rem;
 }
 .advice {
   font-size: 28px;
@@ -43,16 +44,19 @@ main {
   }
 }
 
-button {
+.dice-container {
   position: absolute;
-  bottom: -12%;
+  bottom: -10%;
   border: none;
   border-radius: 100%;
   background-color: hsl(150, 100%, 66%);
   width: 4rem;
   height: 4rem;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-button:hover {
+.dice-container:hover {
   box-shadow: 0px 0px 50px 1px hsl(150, 100%, 66%);
 }
