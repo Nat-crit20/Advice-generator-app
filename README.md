@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://val7997.github.io/Advice-generator-app/](https://val7997.github.io/Advice-generator-app/)
+- Live Site URL: [https://Nat-crit20.github.io/Advice-generator-app/](https://Nat-crit20.github.io/Advice-generator-app/)
 
 ## My process
 
@@ -47,6 +47,3 @@ For this challenge I was reinforcing what I learned with async javascript.
 
 I would like to continue to learn more about how I can implement async javascript into my code.
 
-## Author
-
-- Frontend Mentor - [@Val7997](https://www.frontendmentor.io/profile/Val7997)
